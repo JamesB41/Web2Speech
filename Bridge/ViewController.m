@@ -31,25 +31,14 @@
 }
 
 - (NSString *) loadBridgeData {
-    NSURL *url = [NSURL URLWithString:@"http://frigid.io/loadbridge.php"];
+    NSURL *url = [NSURL URLWithString:@"<your url here>"];
     NSError * error;
     NSStringEncoding * encoding;
     return [NSString stringWithContentsOfURL:url usedEncoding:(unsigned long *)&encoding error:&error];
 }
 
 - (void) speakData:(NSString *) text {
-    NSString *actual;
-    
-    if ([text isEqualToString:@"0"])
-    {
-        actual = @"There is no delay to Canada.";
-    }
-    else
-    {
-        actual = [NSString stringWithFormat:@"The wait time for the Nexus lane of the peace bridge is: %@ minutes", text];
-    }
-    
-    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:actual];
+    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:text];
     [utterance setRate:0.3f];
     AVSpeechSynthesizer *syn = [[AVSpeechSynthesizer alloc] init];
     syn.delegate = self;
