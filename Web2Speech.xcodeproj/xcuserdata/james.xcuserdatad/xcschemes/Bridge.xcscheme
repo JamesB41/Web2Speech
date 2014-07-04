@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1ADCC4531967276600C52304"
-               BuildableName = "Bridge.app"
-               BlueprintName = "Bridge"
-               ReferencedContainer = "container:Bridge.xcodeproj">
+               BuildableName = "Web2Speech.app"
+               BlueprintName = "Web2Speech"
+               ReferencedContainer = "container:Web2Speech.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1ADCC4691967276600C52304"
-               BuildableName = "BridgeTests.xctest"
-               BlueprintName = "BridgeTests"
-               ReferencedContainer = "container:Bridge.xcodeproj">
+               BuildableName = "Web2SpeechTests.xctest"
+               BlueprintName = "Web2SpeechTests"
+               ReferencedContainer = "container:Web2Speech.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1ADCC4531967276600C52304"
-            BuildableName = "Bridge.app"
-            BlueprintName = "Bridge"
-            ReferencedContainer = "container:Bridge.xcodeproj">
+            BuildableName = "Web2Speech.app"
+            BlueprintName = "Web2Speech"
+            ReferencedContainer = "container:Web2Speech.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,9 +63,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1ADCC4531967276600C52304"
-            BuildableName = "Bridge.app"
-            BlueprintName = "Bridge"
-            ReferencedContainer = "container:Bridge.xcodeproj">
+            BuildableName = "Web2Speech.app"
+            BlueprintName = "Web2Speech"
+            ReferencedContainer = "container:Web2Speech.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,9 +81,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1ADCC4531967276600C52304"
-            BuildableName = "Bridge.app"
-            BlueprintName = "Bridge"
-            ReferencedContainer = "container:Bridge.xcodeproj">
+            BuildableName = "Web2Speech.app"
+            BlueprintName = "Web2Speech"
+            ReferencedContainer = "container:Web2Speech.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -12,7 +12,7 @@
 		1ADCC4601967276600C52304 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADCC45F1967276600C52304 /* ViewController.m */; };
 		1ADCC4631967276600C52304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADCC4611967276600C52304 /* Main.storyboard */; };
 		1ADCC4651967276600C52304 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADCC4641967276600C52304 /* Images.xcassets */; };
-		1ADCC4711967276600C52304 /* BridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADCC4701967276600C52304 /* BridgeTests.m */; };
+		1ADCC4711967276600C52304 /* Web2SpeechTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADCC4701967276600C52304 /* Web2SpeechTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1ADCC4541967276600C52304 /* Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADCC4541967276600C52304 /* Web2Speech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Web2Speech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADCC4581967276600C52304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ADCC4591967276600C52304 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1ADCC45B1967276600C52304 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,9 +35,9 @@
 		1ADCC45F1967276600C52304 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1ADCC4621967276600C52304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1ADCC4641967276600C52304 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1ADCC46A1967276600C52304 /* BridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADCC46A1967276600C52304 /* Web2SpeechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Web2SpeechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADCC46F1967276600C52304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1ADCC4701967276600C52304 /* BridgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeTests.m; sourceTree = "<group>"; };
+		1ADCC4701967276600C52304 /* Web2SpeechTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Web2SpeechTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 		1ADCC44B1967276600C52304 = {
 			isa = PBXGroup;
 			children = (
-				1ADCC4561967276600C52304 /* Bridge */,
-				1ADCC46D1967276600C52304 /* BridgeTests */,
+				1ADCC4561967276600C52304 /* Web2Speech */,
+				1ADCC46D1967276600C52304 /* Web2SpeechTests */,
 				1ADCC4551967276600C52304 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 		1ADCC4551967276600C52304 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1ADCC4541967276600C52304 /* Bridge.app */,
-				1ADCC46A1967276600C52304 /* BridgeTests.xctest */,
+				1ADCC4541967276600C52304 /* Web2Speech.app */,
+				1ADCC46A1967276600C52304 /* Web2SpeechTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1ADCC4561967276600C52304 /* Bridge */ = {
+		1ADCC4561967276600C52304 /* Web2Speech */ = {
 			isa = PBXGroup;
 			children = (
 				1ADCC45B1967276600C52304 /* AppDelegate.h */,
@@ -87,6 +87,7 @@
 				1ADCC4641967276600C52304 /* Images.xcassets */,
 				1ADCC4571967276600C52304 /* Supporting Files */,
 			);
+			name = Web2Speech;
 			path = Bridge;
 			sourceTree = "<group>";
 		};
@@ -99,12 +100,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1ADCC46D1967276600C52304 /* BridgeTests */ = {
+		1ADCC46D1967276600C52304 /* Web2SpeechTests */ = {
 			isa = PBXGroup;
 			children = (
-				1ADCC4701967276600C52304 /* BridgeTests.m */,
+				1ADCC4701967276600C52304 /* Web2SpeechTests.m */,
 				1ADCC46E1967276600C52304 /* Supporting Files */,
 			);
+			name = Web2SpeechTests;
 			path = BridgeTests;
 			sourceTree = "<group>";
 		};
@@ -119,9 +121,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1ADCC4531967276600C52304 /* Bridge */ = {
+		1ADCC4531967276600C52304 /* Web2Speech */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1ADCC4741967276600C52304 /* Build configuration list for PBXNativeTarget "Bridge" */;
+			buildConfigurationList = 1ADCC4741967276600C52304 /* Build configuration list for PBXNativeTarget "Web2Speech" */;
 			buildPhases = (
 				1ADCC4501967276600C52304 /* Sources */,
 				1ADCC4511967276600C52304 /* Frameworks */,
@@ -131,14 +133,14 @@
 			);
 			dependencies = (
 			);
-			name = Bridge;
+			name = Web2Speech;
 			productName = Bridge;
-			productReference = 1ADCC4541967276600C52304 /* Bridge.app */;
+			productReference = 1ADCC4541967276600C52304 /* Web2Speech.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1ADCC4691967276600C52304 /* BridgeTests */ = {
+		1ADCC4691967276600C52304 /* Web2SpeechTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1ADCC4771967276600C52304 /* Build configuration list for PBXNativeTarget "BridgeTests" */;
+			buildConfigurationList = 1ADCC4771967276600C52304 /* Build configuration list for PBXNativeTarget "Web2SpeechTests" */;
 			buildPhases = (
 				1ADCC4661967276600C52304 /* Sources */,
 				1ADCC4671967276600C52304 /* Frameworks */,
@@ -149,9 +151,9 @@
 			dependencies = (
 				1ADCC46C1967276600C52304 /* PBXTargetDependency */,
 			);
-			name = BridgeTests;
+			name = Web2SpeechTests;
 			productName = BridgeTests;
-			productReference = 1ADCC46A1967276600C52304 /* BridgeTests.xctest */;
+			productReference = 1ADCC46A1967276600C52304 /* Web2SpeechTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1ADCC44F1967276600C52304 /* Build configuration list for PBXProject "Bridge" */;
+			buildConfigurationList = 1ADCC44F1967276600C52304 /* Build configuration list for PBXProject "Web2Speech" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -185,8 +187,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1ADCC4531967276600C52304 /* Bridge */,
-				1ADCC4691967276600C52304 /* BridgeTests */,
+				1ADCC4531967276600C52304 /* Web2Speech */,
+				1ADCC4691967276600C52304 /* Web2SpeechTests */,
 			);
 		};
 /* End PBXProject section */
@@ -225,7 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADCC4711967276600C52304 /* BridgeTests.m in Sources */,
+				1ADCC4711967276600C52304 /* Web2SpeechTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +236,7 @@
 /* Begin PBXTargetDependency section */
 		1ADCC46C1967276600C52304 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1ADCC4531967276600C52304 /* Bridge */;
+			target = 1ADCC4531967276600C52304 /* Web2Speech */;
 			targetProxy = 1ADCC46B1967276600C52304 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -335,7 +337,7 @@
 				INFOPLIST_FILE = Bridge/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Web2Speech;
 			};
 			name = Debug;
 		};
@@ -347,7 +349,7 @@
 				INFOPLIST_FILE = Bridge/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Web2Speech;
 			};
 			name = Release;
 		};
@@ -366,7 +368,7 @@
 				INFOPLIST_FILE = BridgeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Web2SpeechTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -382,7 +384,7 @@
 				INFOPLIST_FILE = BridgeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Web2SpeechTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -390,7 +392,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1ADCC44F1967276600C52304 /* Build configuration list for PBXProject "Bridge" */ = {
+		1ADCC44F1967276600C52304 /* Build configuration list for PBXProject "Web2Speech" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ADCC4721967276600C52304 /* Debug */,
@@ -399,7 +401,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1ADCC4741967276600C52304 /* Build configuration list for PBXNativeTarget "Bridge" */ = {
+		1ADCC4741967276600C52304 /* Build configuration list for PBXNativeTarget "Web2Speech" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ADCC4751967276600C52304 /* Debug */,
@@ -407,7 +409,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		1ADCC4771967276600C52304 /* Build configuration list for PBXNativeTarget "BridgeTests" */ = {
+		1ADCC4771967276600C52304 /* Build configuration list for PBXNativeTarget "Web2SpeechTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ADCC4781967276600C52304 /* Debug */,

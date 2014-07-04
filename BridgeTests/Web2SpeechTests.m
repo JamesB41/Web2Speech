@@ -1,6 +1,6 @@
 //
-//  BridgeTests.m
-//  BridgeTests
+//  Web2SpeechTests.m
+//  Web2Speech
 //
 //  Created by James on 7/4/14.
 //  Copyright (c) 2014 Frigid Studios. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface BridgeTests : XCTestCase
+@interface Web2SpeechTests : XCTestCase
 
 @end
 
-@implementation BridgeTests
+@implementation Web2SpeechTests
 
 - (void)setUp {
     [super setUp];

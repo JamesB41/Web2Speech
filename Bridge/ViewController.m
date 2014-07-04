@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  Bridge
+//  Web2Speech
 //
 //  Created by James on 7/4/14.
 //  Copyright (c) 2014 Frigid Studios. All rights reserved.
@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self speakData:[self loadBridgeData]];
+    [self speakData:[self loadData]];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -30,7 +30,7 @@
     exit(0);
 }
 
-- (NSString *) loadBridgeData {
+- (NSString *) loadData {
     NSURL *url = [NSURL URLWithString:@"<your url here>"];
     NSError * error;
     NSStringEncoding * encoding;
