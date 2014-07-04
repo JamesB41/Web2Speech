@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@import AVFoundation;
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <AVSpeechSynthesizerDelegate>
 
 
 @end
